@@ -4,9 +4,10 @@ import Navbar from './Components/Navbar';
 import Offers from './Components/Offers';
 import Plan from './Components/Plan';
 import Rooms from './Components/Rooms';
+import Slider from './Components/Slider';
+import Footer from './Components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
@@ -15,6 +16,8 @@ function App() {
       <Offers/>
       <Plan/> 
       <Rooms/>
+      <Slider/>
+      <Footer/>
     </div>
   )
 }
